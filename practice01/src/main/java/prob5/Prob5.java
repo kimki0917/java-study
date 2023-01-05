@@ -7,7 +7,8 @@ public class Prob5 {
 			String test = String.valueOf(i);
 			System.out.print(i);
 			for(int y=0;y<test.length();y++) {
-				if(test.charAt(y)=='3'||test.charAt(y)=='6'||test.charAt(y)=='9')
+				char c = test.charAt(y);
+				if(c=='3'||c=='6'||c=='9')
 				System.out.print("짝");
 			}
 			System.out.println();

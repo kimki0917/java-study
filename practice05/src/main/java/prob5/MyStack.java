@@ -1,10 +1,12 @@
 package prob5;
 
-public class MyStack {
+public class MyStack <T>{
 	private String[] buffer;
 	private int cnt;
 	private String[] newBuffer;
 
+	private Object[] buffer2;
+	
 	public MyStack(int i) {
 		this.buffer = new String[i];
 		this.cnt =0;
